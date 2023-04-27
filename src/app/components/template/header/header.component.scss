@@ -1,17 +1,26 @@
 .header{
+  border: solid 1px #fff;
   background-color: var(--black);
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 3rem 0 1rem 10rem;
+  justify-content: center;
+  padding: 2% 4% 1% 4%;
+
 
   .header-content{
-    max-width: 1920px;
+    border: solid 1px #fff;
     width: 100%;
     display: flex;
     align-items: center;
 
-    .header-img{
+    .header-logo{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    a .header-img{
       height: 50px;
     }
 
