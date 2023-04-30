@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from "./components/template/header/header.component";
 import { MainComponent } from './components/template/main/main.component';
 import { Section1Component } from './components/template/section1/section1.component';
+import { Section2Component } from './components/template/section2/section2.component';
 
 
 @NgModule({
@@ -14,6 +15,7 @@ import { Section1Component } from './components/template/section1/section1.compo
     HeaderComponent,
     MainComponent,
     Section1Component,
+    Section2Component,
     
   ],
   imports: [
