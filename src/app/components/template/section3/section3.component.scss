@@ -1,0 +1,37 @@
+.content-arts{
+  display: flex;
+  flex-direction: column;
+  background-color: var(--grey);
+  width: 100%;
+  padding: 2% 4% 1% 4%;
+  align-items: center;
+
+
+  .art{
+    background-color: aqua;
+    height: 20vw;
+    border-radius: 2vw;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    width: 90%;
+  }
+}
+
+.grow:hover
+{
+        -xpedu-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+}
+
+.scale{
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.scale:hover{
+  -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+  filter: drop-shadow(15px 10px 5px rgba(0,0,0,.1));
+  -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
